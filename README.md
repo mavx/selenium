@@ -1,11 +1,17 @@
 # selenium
-## Usage
+Testing selenium
+
+## Setting Up
 ```
 git clone https://github.com/mavx/selenium.git
 cd selenium
 
-# Setup virtualenv
-python3 -m venv env
-source env/bin/activate
-pip install -r requirements.txt
+pip install pipenv # Skip this if already installed
+pipenv install --three # Install dependencies into Python3 environment
+```
+
+## Usage
+```
+pipenv shell
+python main.py
 ```
