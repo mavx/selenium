@@ -7,7 +7,8 @@ from selenium.webdriver.common.keys import Keys
 print('Opening Chrome')
 # Download chromedriver from https://chromedriver.storage.googleapis.com/index.html?path=2.35/
 # Access the webdriver via its full path
-browser = webdriver.Chrome('/Users/mavx/Downloads/chromedriver')
+# browser = webdriver.Chrome('/Users/mavx/Downloads/chromedriver')    
+browser = webdriver.Chrome()    
 print('Accessing Yahoo.com')
 browser.get('http://www.yahoo.com')
 
